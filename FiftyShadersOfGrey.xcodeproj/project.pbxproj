@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004F0D642A3B3E8F002D1195 /* ShaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F0D632A3B3E8F002D1195 /* ShaderView.swift */; };
+		004F0D662A3B3FA8002D1195 /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 004F0D652A3B3FA8002D1195 /* Shader.metal */; };
 		006381772A3A2AE300E52315 /* FiftyShadersOfGreyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006381762A3A2AE300E52315 /* FiftyShadersOfGreyApp.swift */; };
 		006381792A3A2AE300E52315 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006381782A3A2AE300E52315 /* ContentView.swift */; };
 		0063817B2A3A2AE400E52315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0063817A2A3A2AE400E52315 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		004F0D632A3B3E8F002D1195 /* ShaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaderView.swift; sourceTree = "<group>"; };
+		004F0D652A3B3FA8002D1195 /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
 		006381732A3A2AE300E52315 /* FiftyShadersOfGrey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiftyShadersOfGrey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		006381762A3A2AE300E52315 /* FiftyShadersOfGreyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiftyShadersOfGreyApp.swift; sourceTree = "<group>"; };
 		006381782A3A2AE300E52315 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 				0063817A2A3A2AE400E52315 /* Assets.xcassets */,
 				0063817C2A3A2AE400E52315 /* FiftyShadersOfGrey.entitlements */,
 				0063817D2A3A2AE400E52315 /* Preview Content */,
+				004F0D632A3B3E8F002D1195 /* ShaderView.swift */,
+				004F0D652A3B3FA8002D1195 /* Shader.metal */,
 			);
 			path = FiftyShadersOfGrey;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004F0D662A3B3FA8002D1195 /* Shader.metal in Sources */,
 				006381792A3A2AE300E52315 /* ContentView.swift in Sources */,
+				004F0D642A3B3E8F002D1195 /* ShaderView.swift in Sources */,
 				006381772A3A2AE300E52315 /* FiftyShadersOfGreyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
